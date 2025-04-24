@@ -25,9 +25,15 @@ def load_data(file_path):
 if __name__ == "__main__":
     data = load_data('activity.csv')
     power_W = data['PowerOriginal']
+<<<<<<< HEAD
     zeit = np.arange(len(power_W))
     print(power_W)
     sorted_power_W = bubble_sort(power_W)
     print(sorted_power_W[::-1])
     print(zeit)
   
+=======
+    print(power_W)
+    sorted_power_W = bubble_sort(power_W)
+    print(sorted_power_W[::-1])
+>>>>>>> 287122f95864788cfad30628103b2e7fcd384020
